@@ -1,0 +1,78 @@
+<!-- YourComponent.component.html -->
+<button id="ad" mat-raised-button color="accent" (click)="add()">AddUser</button>
+<button id="add" mat-raised-button color="primary">USER DASHBOARD</button>
+
+  <input id="se" type="text" placeholder="Search By UserName....." [(ngModel)]="searchQuery"
+    (ngModelChange)="search()">
+
+<input id="see" type="text" placeholder="Search By Email....." [(ngModel)]="searchQuery"
+  (ngModelChange)="searchh()">
+
+<div class="container mt-3">
+  <table class="table table-striped">
+    <thead>
+      <tr>
+        <th>ID</th>
+        <th>UserName</th>
+        <th>Email</th>
+        <th>ContactNumber</th>
+        <th>Website</th>
+        <th>Company</th>
+        <th>Action</th>
+        <th>Action</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let user of users | paginate: { itemsPerPage: 8, currentPage: page, totalItems: totalPokemons }">
+        <td>{{ user.id }}</td>
+        <td>{{ user.name }}</td>
+        <td>{{ user.email }}</td>
+        <td>{{ user.phone }}</td>
+        <td>
+
+          <a href="{{ user.website }}" target="_blank">{{ user.website }}</a>
+        </td>
+        <td>{{ user.company }}</td>
+        <td> <button mat-raised-button color="primary" (click)="update(user)">EDIT</button></td>
+        <td> <button mat-raised-button color="warn" (click)="delete(user.id)">DELETE</button></td>
+      </tr>
+
+    </tbody>
+  </table>
+
+
+
+
+
+
+</div>
+<div id="page">
+
+  <pagination-controls (pageChange)="page = $event"></pagination-controls>
+
+</div>
+<div id="editin" *ngIf="isEditMode">
+  <form [formGroup]="editdocuments" (ngSubmit)="sendupdateDocumentData()" class="form-card">
+    <button id="close" type="button" (click)="closeForm()" class="close-button">&#x2715;</button>
+
+    <label class="form-label">Id:</label>
+    <input type="text" formControlName="id" class="form-input" />
+
+    <label class="form-label">UserName:</label>
+    <input type="text" formControlName="name" class="form-input" />
+
+    <label class="form-label">Email:</label>
+    <input type="text" formControlName="email" class="form-input" />
+
+    <label class="form-label">Contact Number:</label>
+    <input type="text" formControlName="phone" class="form-input" />
+
+    <label class="form-label">Website</label>
+    <input type="text" formControlName="website" class="form-input" />
+
+    <label class="form-label">Company</label>
+    <input type="text" formControlName="company" class="form-input" />
+
+    <input type="submit" value="Update" class="form-submit" />
+  </form>
+</div>

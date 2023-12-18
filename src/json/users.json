@@ -1,0 +1,236 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "name": "Suresh",
+      "email": "Suresh@gmail.com",
+      "phone": "7867567437",
+      "website": "https://www.encodetechnologies.ca/",
+      "company": "Enqcode Technologies"
+    },
+    {
+      "id": "2",
+      "name": "Mahesh",
+      "email": "Mahesh@gmail.com",
+      "phone": "9988763763",
+      "website": "https://www.salesforce.com/",
+      "company": "Salesforce"
+    },
+    {
+      "id": "5",
+      "name": "Rajesh",
+      "email": "Rajesh@gmail.com",
+      "phone": "8765432109",
+      "website": "https://www.microsoft.com/",
+      "company": "Microsoft"
+    },
+    {
+      "id": "6",
+      "name": "Anita",
+      "email": "Anita@gmail.com",
+      "phone": "9876543210",
+      "website": "https://www.linkedin.com/company/enqcode/",
+      "company": "enqcode"
+    },
+    {
+      "id": "7",
+      "name": "Karthik",
+      "email": "Karthik@gmail.com",
+      "phone": "8765987654",
+      "website": "https://www.apple.com/",
+      "company": "Apple Inc."
+    },
+    {
+      "id": "8",
+      "name": "Preeti",
+      "email": "Preeti@gmail.com",
+      "phone": "7654987654",
+      "website": "https://www.oracle.com/",
+      "company": "Oracle"
+    },
+    {
+      "id": "9",
+      "name": "Amit",
+      "email": "Amit@gmail.com",
+      "phone": "9876543210",
+      "website": "https://www.ibm.com/",
+      "company": "IBM"
+    },
+    {
+      "id": "10",
+      "name": "Shalini",
+      "email": "Shalini@gmail.com",
+      "phone": "8765432109",
+      "website": "https://www.oracle.com/",
+      "company": "Oracle"
+    },
+    {
+      "id": "11",
+      "name": "Rahul",
+      "email": "Rahul@gmail.com",
+      "phone": "7890654321",
+      "website": "https://www.twitter.com/",
+      "company": "Twitter"
+    },
+    {
+      "id": "11",
+      "name": "Rahul",
+      "email": "Rahul@gmail.com",
+      "phone": "7890654321",
+      "website": "https://www.twitter.com/",
+      "company": "Twitter"
+    },
+    {
+      "id": "12",
+      "name": "Meena",
+      "email": "Meena@gmail.com",
+      "phone": "8765987654",
+      "website": "https://www.sap.com/",
+      "company": "Sap"
+    },
+    {
+      "id": "13",
+      "name": "Vikram",
+      "email": "Vikram@gmail.com",
+      "phone": "7654987654",
+      "website": "https://www.facebook.com/",
+      "company": "Facebook"
+    },
+    {
+      "id": "14",
+      "name": "Neha",
+      "email": "Neha@gmail.com",
+      "phone": "9876543210",
+      "website": "https://www.instagram.com/",
+      "company": "Instagram"
+    },
+    {
+      "id": "15",
+      "name": "Sanjay",
+      "email": "Sanjay@gmail.com",
+      "phone": "8765432109",
+      "website": "https://www.adobe.com/",
+      "company": "Adobe"
+    },
+    {
+      "id": "16",
+      "name": "Sonia",
+      "email": "Sonia@gmail.com",
+      "phone": "7890654321",
+      "website": "https://www.sap.com/",
+      "company": "SAP"
+    },
+    {
+      "id": "17",
+      "name": "Ravi",
+      "email": "Ravi@gmail.com",
+      "phone": "8765987654",
+      "website": "https://www.adobe.com/",
+      "company": "Adobe"
+    },
+    {
+      "id": "18",
+      "name": "Divya",
+      "email": "Divya@gmail.com",
+      "phone": "7654987654",
+      "website": "https://www.salesforce.com/",
+      "company": "Salesforce"
+    },
+    {
+      "id": "19",
+      "name": "Arjun",
+      "email": "Arjun@gmail.com",
+      "phone": "9876543210",
+      "website": "https://www.netflix.com/",
+      "company": "Netflix"
+    },
+    {
+      "id": "20",
+      "name": "Anjali",
+      "email": "Anjali@gmail.com",
+      "phone": "8765432109",
+      "website": "https://www.pinterest.com/",
+      "company": "Pinterest"
+    },
+    {
+      "id": "21",
+      "name": "Vivek",
+      "email": "Vivek@gmail.com",
+      "phone": "7890654321",
+      "website": "https://www.salesforce.com/",
+      "company": "Salesforce"
+    },
+    {
+      "id": "22",
+      "name": "Smita",
+      "email": "Smita@gmail.com",
+      "phone": "8765987654",
+      "website": "https://www.spotify.com/",
+      "company": "Spotify"
+    },
+    {
+      "id": "23",
+      "name": "Kunal",
+      "email": "Kunal@gmail.com",
+      "phone": "7654987654",
+      "website": "https://www.tesla.com/",
+      "company": "Tesla"
+    },
+    {
+      "id": "24",
+      "name": "Aparna",
+      "email": "Aparna@gmail.com",
+      "phone": "9876543210",
+      "website": "https://www.snapchat.com/",
+      "company": "Snapchat"
+    },
+    {
+      "id": "25",
+      "name": "Rahila",
+      "email": "Rahila@gmail.com",
+      "phone": "8765432109",
+      "website": "https://www.tesla.com/",
+      "company": "Tesla"
+    },
+    {
+      "id": "26",
+      "name": "Rohit",
+      "email": "Rohit@gmail.com",
+      "phone": "7890654321",
+      "website": "https://www.twitter.com/",
+      "company": "Twitter"
+    },
+    {
+      "id": "27",
+      "name": "Shweta",
+      "email": "Shweta@gmail.com",
+      "phone": "8765987654",
+      "website": "https://www.tesla.com/",
+      "company": "Tesla"
+    },
+    {
+      "id": "28",
+      "name": "Abhishek",
+      "email": "Abhishek@gmail.com",
+      "phone": "7654987654",
+      "website": "https://www.microsoft.com/",
+      "company": "Microsoft"
+    },
+    {
+      "id": "29",
+      "name": "Sarita",
+      "email": "Sarita@gmail.com",
+      "phone": "9876543210",
+      "website": "https://www.apple.com/",
+      "company": "Apple Inc."
+    },
+    {
+      "id": "30",
+      "name": "Vinod",
+      "email": "Vinod@gmail.com",
+      "phone": "8765432109",
+      "website": "https://www.google.com/",
+      "company": "Google"
+    }
+  ]
+}

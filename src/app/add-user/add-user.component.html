@@ -1,0 +1,82 @@
+
+
+
+    
+<div class="container1" id="border" >
+    <form [formGroup]="regform" (ngSubmit)="onSubmit()">
+      
+        <div class="one">
+            <div>
+                <mat-form-field>
+                    <input matInput class="input" placeholder="Enter the Id*" formControlName="id">
+                    <mat-error *ngIf="idvalidator?.touched && idvalidator?.invalid">
+                        <span *ngIf="idvalidator?.errors?.['required']">
+                            Id is required
+                        </span>
+                    </mat-error>
+                </mat-form-field>
+            </div>
+        </div>
+        <div class="one">
+            <div>
+                <mat-form-field>
+                    <input matInput class="input" placeholder="Username*" formControlName="name">
+                    <mat-error *ngIf="namevalidator?.touched && namevalidator?.invalid">
+                        <span *ngIf="namevalidator?.errors?.['required']">
+                            UserName is required
+                        </span>
+                    </mat-error>
+                </mat-form-field>
+            </div>
+        </div>
+        <div>
+            <mat-form-field>
+                <input matInput placeholder="Email*" formControlName="email">
+                <mat-error *ngIf="emailvalidator?.touched && emailvalidator?.invalid">
+
+                    <span *ngIf="emailvalidator?.errors?.['required']">
+                        Email is Required
+                    </span>
+                    <span *ngIf="emailvalidator?.errors?.['pattern']">
+                        Inavlid Pattern
+                    </span>
+                </mat-error>
+            </mat-form-field>
+        </div>
+        <div>
+            <mat-form-field>
+              <input matInput placeholder="Contact Number*" formControlName="phone">
+              <mat-error *ngIf="regform.get('phone')?.hasError('pattern')">
+                <span>Contact Number should contain only digits</span>
+              </mat-error>
+              <mat-error *ngIf="regform.get('phone')?.hasError('minlength')">
+                <span>number at least 10 digits long</span>
+              </mat-error>
+            </mat-form-field>
+          </div>
+          
+        <div>
+            <mat-form-field>
+                <input matInput placeholder="Website*" formControlName="website">
+                <mat-error *ngIf="websitevalidator?.touched && websitevalidator?.invalid">
+                    <span *ngIf="websitevalidator?.errors?.['required']">
+                        Website is required
+                    </span>
+                </mat-error>
+            </mat-form-field>
+        </div>
+        <div>
+            <mat-form-field>
+                <input matInput placeholder="Company" formControlName="company">
+                <mat-error *ngIf="companyvalidator?.touched && companyvalidator?.invalid">
+                    <span *ngIf="companyvalidator?.errors?.['required']">
+                        Compnay is required
+                    </span>
+                </mat-error>
+            </mat-form-field>
+        </div>
+        <span class="con3">
+            <button type="submit" mat-raised-button color="primary">Submit</button>
+        </span>
+    </form>
+</div>
